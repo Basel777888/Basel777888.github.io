@@ -1,56 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-    <meta charset="UTF-8">
-    <title>تسديد قروض</title>
-    <style>
-        .hidden-text {
-            color: transparent;
-            font-size: 1px;
-            user-select: all;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            text-align: right;
-            direction: rtl;
-            padding: 15px;
-            background-color: #fff;
-            line-height: 1.6;
-        }
-        .contact-box {
-            background-color: #075E54;
-            color: white;
-            padding: 12px;
-            margin: 10px 0;
-            border-radius: 5px;
-            text-align: center;
-        }
-        .whatsapp-box {
-            background-color: #25D366;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>تسديد قروض</title>
+  <style>
+    body {
+      background-color: #ffffff;
+      font-family: Arial, sans-serif;
+      direction: rtl;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      background-color: #c2d3ec;
+      padding: 10px;
+      margin-bottom: 20px;
+      font-size: 24px;
+    }
+
+    .contact-number {
+      font-size: 20px;
+      font-weight: bold;
+      color: #b60000;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      width: 80%;
+      max-width: 300px;
+      padding: 15px;
+      margin: 10px auto;
+      border-radius: 8px;
+      font-size: 16px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+    }
+
+    .call-btn {
+      background-color: #1e88e5;
+    }
+
+    .whatsapp-btn {
+      background-color: #25d366;
+    }
+
+    .main-text p {
+      font-size: 20px;
+      margin: 5px 0;
+      color: #4b2e2e;
+    }
+
+    .hidden-text {
+      color: #ffffff; /* يخفي النص */
+      background-color: #ffffff; /* نفس لون الخلفية */
+      font-size: 16px;
+      user-select: text;
+      padding: 10px;
+      margin-top: 30px;
+    }
+
+    .hidden-text::selection {
+      color: black;
+      background: yellow;
+    }
+  </style>
 </head>
 <body>
-    <h1 style="text-align:center;border-bottom:1px solid #ddd;padding-bottom:10px;">تسديد قروض</h1>
-    
-    <div class="contact-box">
-        <a href="tel:0576878615" style="color:white;text-decoration:none;">أتصل بنا مباشرة: 0576878615</a>
-    </div>
-    
-    <div class="contact-box whatsapp-box">
-        <a href="https://wa.me/966576878615" style="color:white;text-decoration:none;">تواصل عبر واتساب</a>
-    </div>
-    
-    <div style="margin-top:20px;">
-        <p style="text-align:center;">تسديد قروض</p>
-        <p style="text-align:center;">استخراج آخر</p>
-        <p style="text-align:center;">يصل الى 32 راتب</p>
-        <p style="text-align:center;">سداد سريع بنفس اليوم انجاز سريع</p>
-    </div>
-    
-    <p class="hidden-text">
-        تسديد قروض يصل الى 32 راتب استخراج تأمين مداد سريع بنفس اليوم انجاز سريع
-        شراء آثاث مستعمل شراء معدات مطاعم شراء أثاث شقق وفنادق
-    </p>
+
+  <h1>تسديد قروض</h1>
+
+  <div class="contact-number">0576878615</div>
+
+  <a href="tel:0576878615" class="btn call-btn">اتصل بنا انقر هنا مباشرة</a>
+  <br>
+  <a href="https://wa.me/966576878615" class="btn whatsapp-btn">تواصل واتس اب مباشرة انقر هنا</a>
+
+  <div class="main-text" style="margin-top:30px;">
+    <p>تسديد قروض</p>
+    <p>استخراج اخر</p>
+    <p>يصل الى 32 راتب</p>
+    <p>سداد سريع بنفس اليوم انجاز سريع</p>
+  </div>
+
+  <div class="hidden-text">
+    تسديد قروض يصل الى 32 راتب استخراج اخر جديد اثاث المنازل والبيوت يصل الى 32 راتب والفلل الكراسي المستعملة للمطابخ المستعملة الستائر سداد سريع بنفس اليوم انجاز سريع <br>
+    نشتري الاثاث في افضل الاسعار شراء اثاث مستعمل شراء الاثاث بجميع انواعه شراء معدات المطاعم واثاث الشقق والفنادق تسديد قروض
+  </div>
+
 </body>
 </html>
